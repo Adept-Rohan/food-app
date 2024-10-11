@@ -30,15 +30,15 @@ const HomePage = () => {
             iconRight={<Filter/>}
           />
       </View>
-      <View className="bg-[#323232] w-full rounded-2xl h-[152px] mt-4 px-4 py-4">
-       <View className="w-[50%]">
+      <View className="bg-[#323232] w-full rounded-2xl h-[162px] mt-4 px-8 py-4 flex-row ">
+       <View className="w-[50%] justify-center">
            <Text className="text-white font-roboto text-base font-medium leading-6 tracking-[0.08px]">Special Deals</Text>
            <Text className="font-roboto text-2xl font-semibold leading-8 text-white">50% OFF</Text>
            <Text className="font-roboto text-xs font-normal leading-4 tracking-[0.048px] text-[#bfbfbf]">and get free delivery.</Text>
-           <Button className="mt-2 " title="Order Now"/>
+           <Button className="mt-4 " title="Order Now"/>
        </View>
-       <View className="w-[50%]">
-           {/* <Image source={images.chicken} className="object-cover"/> */}
+       <View className="w-[50%] items-center justify-center">
+           <Image source={images.chicken} className="object-cover  w-28 h-28"/>
        </View>
       </View>
     </SafeAreaView>
