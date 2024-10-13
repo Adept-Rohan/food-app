@@ -39,6 +39,7 @@ const HomePage = () => {
        </View>
        <View className="w-[50%] items-center justify-center">
            <Image source={images.chicken} className="object-cover  w-28 h-28"/>
+           <Text className="hidden">Image File</Text>
        </View>
       </View>
     </SafeAreaView>
